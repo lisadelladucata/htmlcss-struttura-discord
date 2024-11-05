@@ -91,7 +91,7 @@ header{
 /*------------------------
     SECTION 3
 --------------------------*/
-.sec-three{
+.sec-gray{
     padding: 50px;
     background-color: #d3d3d3;
 }
@@ -112,4 +112,14 @@ header{
 
 .square{
     display: flex;
+}
+
+/*-------------------
+    SECTION 5
+--------------------*/
+.green-square{
+    width: 100%;
+    min-height: 800px;
+    border: 2px dashed black;
+    background-color: #228b22;
 }
