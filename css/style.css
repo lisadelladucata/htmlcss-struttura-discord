@@ -24,13 +24,14 @@ header{
 
 .top-header{
     display: flex;
-    padding: 10px;
+    padding: 20px;
 }
 
 .logo , .login{
     width: 20%;
     border: 2px dashed black;
     background-color: #daa520;
+    padding: 6px;
 }
 
 .link{
@@ -38,8 +39,25 @@ header{
     border: 2px dashed black;
     background-color: #daa520;
     text-align: center;
+    padding: 6px;
 }
 
 .login{
     text-align: right;
+}
+
+/*-----------------
+   SECTION 1
+-------------------*/
+.sec-one{
+    background-color: #00008b;
+    padding: 100px;
+}
+
+#square-1{
+    max-width: 800px;
+    min-height: 400px;
+    border: 2px dashed black;
+    margin: auto;
+    background-color: #ee82ee;
 }
