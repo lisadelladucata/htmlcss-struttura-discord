@@ -19,6 +19,10 @@ header{
     background-color: #add8e6;
 }
 
+footer{
+    background-color: #23272a;
+}
+
 /*----------------
      HEADER
 ------------------*/
@@ -96,22 +100,18 @@ header{
     background-color: #d3d3d3;
 }
 
-.sec-three .blue-square{
+#blue-square{
     width: 40%;
     min-height: 400px;
     border: 2px dashed black;
     background-color: #1e90ff;
 }
 
-.sec-three .pink-square{
+#pink-square{
     width: 60%;
     min-height: 400px;
     border: 2px dashed black;
     background-color: #ffc0cb;
-}
-
-.square{
-    display: flex;
 }
 
 /*-------------------
@@ -122,4 +122,46 @@ header{
     min-height: 800px;
     border: 2px dashed black;
     background-color: #228b22;
+}
+
+/*------------------
+     FOOTER PART 1
+--------------------*/
+.top-footer{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.coral-square{
+    width: 24%;
+    min-height: 600px;
+    border: 2px dashed black;
+    background-color: #f08080;
+}
+
+.lightblue-square{
+    width: 19%;
+    min-height: 600px;
+    border: 2px dashed white;
+    background-color: #20b2aa;
+}
+
+/*---------------------
+   FOOTER PART 2
+-----------------------*/
+
+.bottom-footer{
+    padding-top: 50px;
+}
+
+.button-section{
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottone{
+    border: 2px dashed black;
+    background-color: #ffb6c1;
+    padding: 6px;
 }
