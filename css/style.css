@@ -6,3 +6,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*----------------
+    GENERAL
+------------------*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: #add8e6;
+}
+/*----------------
+     HEADER
+------------------*/
+
+.top-header{
+    display: flex;
+    padding: 10px;
+}
+
+.logo , .login{
+    width: 20%;
+    border: 2px dashed black;
+    background-color: #daa520;
+}
+
+.link{
+    width: 60%;
+    border: 2px dashed black;
+    background-color: #daa520;
+    text-align: center;
+}
+
+.login{
+    text-align: right;
+}
